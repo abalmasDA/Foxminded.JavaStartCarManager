@@ -12,11 +12,11 @@ public class CarManager {
         Motorcycle yamaha = new Motorcycle("Yamaha FZ1", 2007, 9000, 700, "orangE", "gas", false);
 
 
-        prius.addDistance(1000);
+        prius.addDistance(1000);//delete this row
 
 
         System.out.println(prius);
-        System.out.println(renault);
+        System.out.println(renault);//delete this row
         System.out.println(suzuki);
         System.out.println(yamaha);
 
